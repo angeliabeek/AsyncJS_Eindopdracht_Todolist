@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  margin: 100px auto auto auto;
+  width: 50%;
+  font: 18px normal Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.list__header {
+  margin: 20px;
+}
+.list__text {
+  margin-bottom: 20px;
+}
+.list__new {
+  margin-bottom: 25px;
+  text-align: left;
+}
+.list__new--input {
+  width: 350px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 7px;
+}
+.list__new--button {
+  margin-left: 20px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 7px 20px;
+  background-color: rgb(71, 62, 201);
+  font-size: 16px;
+  font-weight: bold;
+}
+.list__tasks {
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+.list__tasks__item {
+  border-bottom: 2px solid grey;
+  padding: 20px;
+  list-style-type: none;
+  text-align: left;
+}
+.list__tasks__item:last-child {
+  border-bottom: none;
+}
+.list__tasks__item--checkbox {
+  margin-left: 10px;
+}
+.list__tasks__item--text {
+  margin-left: 40px;
+}
+.list__tasks__item--checked {
+  text-decoration: line-through;
+}
+.list__tasks__item--icon {
+  width: 40px;
+  float: right;
+  font-family: "Font Awesome 5 Free";
+  color: red;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>To Do List</title>
+
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/169505694e.js" crossorigin="anonymous"></script>
+    <script defer type="module" src="./local_api/database/todo.js"></script>
+    <script defer type="text/javascript" src="./scripts/api-client.js"></script>
+    <script defer type="text/javascript" src="./scripts/script.js"></script>
+
+</head>
+
+<body>
+    <form class="list">
+        <h1 class="list__header">To Do List</h1>
+        <p class="list__text">Click on text of task to change the task</p>
+        <div class="list__new">
+            <input class="list__new--input" id="new-task" type="text" name="new-task" placeholder="New Task">
+            <input class="list__new--button" id="add-button" type="submit" name="submit" value="Add Task">
+        </div>
+        <ul class="list__tasks" id="list"></ul>
+    </form>
+</body>
+
+</html>

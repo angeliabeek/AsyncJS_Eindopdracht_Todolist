@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    margin: 100px auto auto auto;
+    width: 50%;
+    font: 18px normal Arial, Helvetica, sans-serif;
+    text-align: center;
+
+    &__header {
+        margin: 20px;
+    }
+
+    &__text {
+        margin-bottom: 20px;
+    }
+
+    &__new {
+        margin-bottom: 25px;
+        text-align: left;
+
+        &--input {
+            width: 350px;
+            border: 2px solid grey;
+            border-radius: 5px;
+            padding: 7px;
+
+        }
+
+        &--button {
+            margin-left: 20px;
+            border: 2px solid grey;
+            border-radius: 5px;
+            padding: 7px 20px;
+            background-color: rgb(71, 62, 201);
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+
+    &__tasks {
+        border: 2px solid grey;
+        border-radius: 5px;
+
+        &__item {
+
+            border-bottom: 2px solid grey;
+            padding: 20px;
+            list-style-type: none;
+            text-align: left;
+
+            &:last-child {
+                border-bottom: none;
+            }
+
+            &--checkbox {
+                margin-left: 10px;
+            }
+
+            &--text {
+                margin-left: 40px;
+            }
+
+            &--checked {
+                text-decoration: line-through;
+            }
+
+            &--icon {
+                width: 40px;
+                float: right;
+                font-family: "Font Awesome 5 Free";
+                color: red;
+                font-size: 20px;
+            }
+
+        }
+    }
+}
